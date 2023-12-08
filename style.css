@@ -1,0 +1,150 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+	margin-Left: 50px;
+}
+
+.logo-container2 h1 {
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+}
+
+.logo-container2 {
+  align-items: center;
+}
+
+img {
+	width: 50%;
+}
+
+nav {
+	margin-Right: 110px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+  background-color: #c12026;
+}
+
+nav .active a {
+  background-color: #c12026;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+  min-height: calc(100vh - 150px);
+}
+
+/* About styles */
+
+.about a {
+  text-decoration: none;
+  color: #000;
+}
+
+.about-stuff {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+  width: 45%;
+  float: left;
+  align-items: center;
+}
+
+.about-stuff:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-stuff img {
+  margin-bottom: 10px;
+}
+
+.about-stuff h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color: #333;
+color: #fff;
+width: 100%;
+}
+
+.social-media-icons {
+display: flex;
+}
+
+.social-media-icons a {
+display: block;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+font-size: 20px;
+text-align: center;
+line-height: 30px;
+border-radius: 50%;
+background-color: #ff2e2e;
+transition: background-color 0.3s ease;
+}
+
+.social-media-icons a:hover {
+background-color: #000;
+}
