@@ -206,3 +206,8 @@ background-color:red;
 opacity: 20%;
 text-align: center;
 }
+
+.framed {
+	margin: 0px;
+	align-items: center;
+}
