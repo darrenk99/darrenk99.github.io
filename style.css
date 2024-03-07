@@ -167,6 +167,29 @@ main {
   margin-bottom: 10px;
 }
 
+.about-stuff3 {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+  width: 45%;
+  float: left;
+  align-items: center;
+}
+
+.about-stuff3:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-stuff3 h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 /* Footer styles */
 footer {
 display: flex;
@@ -200,14 +223,11 @@ background-color: #000;
 }
 
 model-viewer{
-width:100%;
-height:90px;
-background-color:red;
-opacity: 20%;
-text-align: center;
+width:790px;
+height:750px;
+background-color:#333;
 }
 
 .framed {
-	margin: 0px;
-	align-items: center;
+	text-align: center;
 }
