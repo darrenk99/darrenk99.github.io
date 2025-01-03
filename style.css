@@ -94,6 +94,10 @@ main {
   color: #000;
 }
 
+.about img {
+	width: 750px;
+}
+
 
 
 .about-stuff {
@@ -226,4 +230,19 @@ background-color:#333;
 
 .framed {
 	text-align: center;
+}
+
+#img1 {
+	height: 250px;
+	width: 400px;
+}
+
+#img2 {
+	height: 250px;
+	width: 250px;
+}
+
+#img3 {
+	height: 250px;
+	width: 450px;
 }
